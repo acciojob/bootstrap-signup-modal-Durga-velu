@@ -8,17 +8,17 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         Sign Up
        </button>
-      <div class="modal-title" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+       <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Create Account</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h5 class="modal-title" id="staticBackdropLabel">Create Account</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-                <div class="modal-body">
+            <div class="modal-body">
                 <form class="row g-2">
                 <div class="col-sm-12">
                   <label for="email-address" class="form-label"><h5>Email address</h5></label>
@@ -33,14 +33,13 @@
                     <label for="confirm" class="form-label"><h5>Confirm Password</h5></label>
                     <input type="password" id="confirm" placeholder="Confirm Password" required>
 				</div>
-               </form>
-               </div>
-              <div class="modal-footer">
+				</div>
+				  </form>
+				<div class="modal-footer">
                  <button type="button" class="btn btn-success">Save changes</button>
-              </div>
+                </div>
             </div>
           </div>
         </div>
-		
 	</body>
 </html>
