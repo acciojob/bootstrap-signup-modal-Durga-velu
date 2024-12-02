@@ -3,8 +3,7 @@
 .btn{
    border:2px solid black;
 }
-#staticBackdrop .fade{
+#staticBackdrop .modal .fade {
 	display:visible;
-	justify-content:center;
-	align-items:center;
+	
 }
