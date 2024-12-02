@@ -1,9 +1,10 @@
 /* Your CSS Code here. */
-*{
-	padding:0;
-	margin:0;
-	box-sizing:border-box;
-}
+
 .btn{
    border:2px solid black;
+}
+#staticBackdrop{
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
